@@ -5,6 +5,7 @@ SPYS の公開案内サイト。GitHub Pages 用の静的 HTML/CSS です。ゲ�
 ## ページ
 
 - `index.html`：ゲームの案内
+- `assets/games/`：ミニゲーム紹介の画面キャプチャ（ゲーム本体リポジトリの `docs/mockups/screens/` から選定）
 - `privacy.html`：プライバシーポリシー
 - `support.html`：問い合わせ・報告・削除案内
 
