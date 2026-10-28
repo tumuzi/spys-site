@@ -1,7 +1,7 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 
-for (const page of ['index.html', 'privacy.html', 'support.html']) {
+for (const page of ['index.html', 'privacy.html', 'support.html', 'licenses.html']) {
   const html = readFileSync(page, 'utf8');
   if (!/<title>[^<]+<\/title>/.test(html)) throw new Error(`${page}: title is missing`);
   for (const [, target] of html.matchAll(/(?:href|src)="([^"#]+)(?:#[^"]*)?"/g)) {
