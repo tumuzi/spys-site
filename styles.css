@@ -29,7 +29,7 @@ h1,h2,h3,p{margin-top:0}
 .hero-actions{display:flex;align-items:center;gap:25px;flex-wrap:wrap}
 .hero-games-link{font-size:14px;font-weight:800;color:#236f5c;text-decoration:none;text-underline-offset:4px}
 .hero-games-link:hover{text-decoration:underline}
-.hero-note{font-size:12px;color:var(--muted);margin:25px 0 0}
+.hero-note{font-size:14px;color:var(--muted);margin:25px 0 0}
 .hero-art{position:relative;width:100%;min-width:0;max-width:500px;margin-inline:auto}
 .art-frame{background:#f5dccc;border:3px solid var(--ink);border-radius:38px;padding:12px;transform:rotate(3deg);box-shadow:16px 17px 0 #bed8bf;overflow:hidden}
 .art-frame img{display:block;width:100%;aspect-ratio:3/2;object-fit:contain;border-radius:26px}
@@ -48,9 +48,11 @@ h1,h2,h3,p{margin-top:0}
 .games-heading p{max-width:310px;margin:0 0 3px;color:#4d6364;font-size:15px;line-height:1.8}
 .games-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
 .game-card{min-width:0;overflow:hidden;background:var(--card);border:1px solid #d1d9cf;border-radius:20px;box-shadow:0 8px 0 rgba(57,101,88,.09)}
+.game-card.upcoming{border-color:#c9a88c}
+.game-card.upcoming .game-number{color:#9b5634}
 .game-card img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:#e4e6dc;border-bottom:1px solid var(--line)}
 .game-card-copy{padding:23px 24px 26px}
-.game-number{display:block;color:#31836d;font-family:Arial,sans-serif;font-size:11px;font-weight:800;letter-spacing:.13em;margin-bottom:11px}
+.game-number{display:block;color:#31836d;font-family:Arial,sans-serif;font-size:13px;font-weight:800;letter-spacing:.13em;margin-bottom:11px}
 .game-card h3{font-size:23px;letter-spacing:-.05em;margin-bottom:9px}
 .game-card p{font-size:14px;line-height:1.85;color:#4d6364;margin:0}
 .games-note{font-size:12px;color:var(--muted);margin:28px 0 0}
